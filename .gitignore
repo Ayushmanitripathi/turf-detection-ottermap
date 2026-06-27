@@ -1,0 +1,50 @@
+# ── Large data files (share via Google Drive) ────────────────────
+data/raw/*.tiff
+data/raw/*.tif
+data/patches/
+data/external/
+
+# ── Large GeoJSON outputs (too large for GitHub) ─────────────────
+gis_outputs/2_turf_prediction.geojson
+gis_outputs/3_turf_prediction.geojson
+results/training_predictions/2_turf_prediction.geojson
+results/training_predictions/3_turf_prediction.geojson
+
+# ── Large validation prediction PNGs ─────────────────────────────
+results/validation_predictions/
+results/postprocess_check/
+results/postprocess_strict/
+results/ground_truth_checks/
+
+# ── Python cache ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ── Virtual environments ──────────────────────────────────────────
+venv/
+env/
+.venv/
+
+# ── Model weights JSON duplicate ──────────────────────────────────
+weights/*.json
+
+# ── IDE ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── OS ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Jupyter ───────────────────────────────────────────────────────
+*.ipynb
+.ipynb_checkpoints/
+
+# ── Logs ──────────────────────────────────────────────────────────
+*.log
